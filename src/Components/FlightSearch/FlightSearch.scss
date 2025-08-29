@@ -1,0 +1,98 @@
+.flight-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    margin: 20px 0;
+    color: #003366;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-box input,
+.search-box button {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.flight-card {
+    width: 350px;
+    min-height: 220px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn,
+.btn-book,
+.btn-confirm,
+.btn-cancel {
+    padding: 8px 12px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn {
+    background: #0066cc;
+    color: white;
+}
+
+.btn-book {
+    background: #28a745;
+    color: white;
+}
+
+.btn-confirm {
+    background: #007bff;
+    color: white;
+}
+
+.btn-cancel {
+    background: #dc3545;
+    color: white;
+}
+
+.form-container {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 400px;
+    background: #f9f9f9;
+}
+
+.form-container input,
+.form-container select {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px;
+}
+
+.booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.booking-table th,
+.booking-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}

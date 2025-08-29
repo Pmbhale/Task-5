@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box
+}
+
+html,
+body,
+#root,
+.app-root {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: black;
+    font-family: Inter, ui-sans-serif, system-ui
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.04)
+}
+
+.btn {
+    border-radius: 9999px;
+    border: 1px solid rgba(255, 255, 255, .06);
+    padding: .5rem .9rem;
+    cursor: pointer
+}
+
+.btn.ghost {
+    background: rgb(80, 80, 248);
+    color: #e2e8f0;
+    border: 1px solid rgba(255, 255, 255, .06);
+}
+
+.btn.solid {
+    margin-right: -6rem;
+    background: rgb(80, 80, 248);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, .06);
+}
+
+.muted {
+    color: var(--muted)
+}
+
+.section {
+    padding: 2.5rem 0
+}
